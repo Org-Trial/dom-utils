@@ -18,6 +18,10 @@ export const selectAll = (selector, parent) => {
   return document.querySelectorAll(selector);
 };
 
+/** 
+* rAF
+* documentation placeholder
+*/
 export const rAF = ({ wait } = { wait: 0 }) => new Promise((resolve) => {
     setTimeout(() => {
       resolve(window.requestAnimationFrame);
