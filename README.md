@@ -4,4 +4,7 @@
 
 ## TODO
 
-Add some setup instructions here
+1.  How to install
+2.  How to run tests
+3.  How to lint and format
+4.  How to run CI/CD and auto deploy
